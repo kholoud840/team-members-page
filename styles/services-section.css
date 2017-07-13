@@ -5,10 +5,10 @@
 .service{
     display: flex;
     align-items: center;
-    //margin-bottom: 30px;
+    justify-content: center;
 }
 .wrapper{
-    padding: 60px 0;
+    padding: 30px 0;
 }
 .service:not(:last-child){
     margin-bottom: 30px;
@@ -69,6 +69,11 @@ h4{
     .services-2{
         text-align: initial;
     }
-
+    .service{
+        justify-content: initial;
+    }
+    .wrapper{
+        padding: 60px 0;
+    }
 
 }
