@@ -1,4 +1,4 @@
-h2 {
+h2.team-section-title {
     text-align: center;
     text-transform: capitalize;
     font-size: 1.3em;
@@ -71,7 +71,7 @@ p {
 
 @media (min-width: 25em) {
 
-    h2 {
+    h2.team-section-title {
         margin: 10px 30px;
     }
 
@@ -81,9 +81,6 @@ p {
 
     .team-members-wrapper {
         overflow: hidden;
-    }
-    .content{
-        padding: 10px;
     }
 
     .member {
